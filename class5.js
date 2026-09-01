@@ -3,8 +3,8 @@
 // 1. Write a program that take two numbers & add them in a new variable.
 // Show the result in your browser.
 
-var firstNum = +prompt("Enter first number");
-var secondNum = +prompt("Enter second number");
+var firstNum = +prompt("10");
+var secondNum = +prompt("90");
 
 var add = firstNum + secondNum;
 
@@ -273,7 +273,7 @@ document.write("<h3>The Lifetime Supply Calculator</h3>");
 
 // a. Store your favorite snack into a variable.
 
-var snack = "Lays";
+var snack = "Cake";
 
 // b. Store your current age into a variable.
 

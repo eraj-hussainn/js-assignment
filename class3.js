@@ -8,14 +8,14 @@ var age = 19;
 // 2. Declare & initialize a variable to keep track of how many times a visitor has visited a web page. Show his/her
 // number of visits on your web page. For example: “You have visited this site N times”.
 
-var numberOfVisit = 54;
- alert("You have visited this site " + numberOfVisit + " times.");
+var N = 54;
+ alert("You have visited this site " + N + " times.");
 
 // 3. Declare a variable called birthYear & assign to it your birth year. Show the following message in your browser:
 
 var birthYear = 2005;
- document.write("My birth year is " + birthYear + "<br>");
- document.write("Data type of my declared variable is number" + "<br>");
+ ("My birth year is " + birthYear + "<br>");
+ alert("Data type of my declared variable is number" + "<br>");
 
 // 4. A visitor visits an online clothing store www.xyzClothing.com . Write a script to store in variables the following information:
 // a. Visitor’s name
@@ -26,4 +26,4 @@ var birthYear = 2005;
 var visitorName = "Eraj Hussain";
 var productTitle = "Pajama";
 var quantity = 5;
-document.write(visitorName + " ordered " + quantity + " " + productTitle + " on XYZ Clothing store")
+alert(visitorName + " ordered " + quantity + " " + productTitle + " on XYZ Clothing store")
